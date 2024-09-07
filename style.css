@@ -1,0 +1,340 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.webdev{
+    height: 100vh;
+    width:100vw;
+    
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    background: #0cdad3;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:blue;
+    cursor:pointer;
+}
+
+.logo::first-letter{
+    font-size: 30px;
+    border:2px solid blue;
+    border-right: transparent;
+    padding-left:2px;
+    color:#fd4766;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    padding:10px;
+}
+
+nav ul li a{
+    color:#1d1d24;
+    position:relative;
+    padding:20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:#fd4766;
+}
+
+
+
+.btn{
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background:#fd4766;
+    padding:10px 30px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    border:2px solid #fd4766;
+}
+
+.btn:hover{
+    background:transparent;
+    color:#fd4766;
+}
+
+.detail{
+    position:absolute;
+    top:19%;
+    left:2%;
+}
+
+.About-image{
+    width: 350px;
+    height: 250px;
+    margin-top:6%;
+    padding-left:65%;
+}
+
+.About-image img{
+    position: relative;
+    max-width: 250px;
+    border-radius:90%;
+    border:7px solid;
+}
+
+.detail h1,h3{
+    color:#1f1f25;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.detail h1 span{
+    color:#fd4766;
+}
+
+
+.detail p{
+    color:#1f1f25;
+    font-size: 18px;
+    margin-top:12px;
+    
+}
+
+.header-action-aria .btn{
+	text-decoration: none;
+	font-size: 19px;
+    left:4%;
+    margin-top:2%;
+}
+
+.det h4{
+    color:#1f1f25;
+    font-size: 18px;
+    padding:1px;
+    margin-top:1%;
+}
+
+#education{
+    display: flex;
+    flex-direction: column;
+    background:#68a2c6;
+    
+}
+
+#education h1{
+    margin:20px;
+    justify-content: center;
+    text-align:center;
+    font-size: 2rem;
+    font-weight: 400px;
+}
+
+.box:hover{
+    
+    transform:scale(1.05);
+    transition: 0.2s;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+
+.box{
+    height:200px;
+    width:500px;
+    background-color:rgb(212, 199, 172);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.box h2{
+    color:black;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.box h4{
+    color:white;
+    font-size: 1.1rem;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    background:#68a2c6;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#skills h1{
+    margin:20px;
+    justify-content: center;
+    text-align:center;
+    font-size: 2rem;
+    font-weight: 400px;
+}
+
+.column{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding-left:50px;
+}
+
+.box1{
+    height:100px;
+    width:150px;
+    background-color:white;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.box1:hover{
+    
+    transform:scale(1.05);
+    background:#7ccd81;
+    transition: 0.2s;
+}
+
+.box1 h2{
+    color:black;
+    font-size:1rem;
+    margin-bottom:50%;
+    text-align: center;
+    margin-top:10%;
+}
+
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    background:#68a2c6;
+}
+
+.container h1{
+    text-align:center;
+    margin-top: 20px;
+} 
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius:20px;
+
+}
+
+.images{
+    column-count: 3;
+    margin:25px;
+    padding:10px;
+    
+}
+
+.image{
+    margin-bottom:45px;
+}
+
+.image h4{
+    font-size: 25px;
+    padding-left:15%;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+#contactme{
+    display: flex;
+    flex-direction: column;
+    background:#68a2c6;
+    
+}
+
+.boxes:hover{
+    
+    transform:scale(1.05);
+    transition: 0.2s;
+}
+
+.colum{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+
+.box p{
+    color:white;
+    font-size: 20px;
+    padding-left:4%;
+    margin-top: 2%;
+}
+
+.box a{
+    color:white;
+    font-size:15px;
+    padding-left:2%;
+    top:6%;
+}
+
+.box input{
+    height:40%;
+    width:80%;
+    border-radius:5px;
+    border:2px;
+    display: flex;
+    
+    
+}
+
+.box textarea{
+    height:10vh;
+    width:80vh;
+    border-radius:5px;
+    border:2px;
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
